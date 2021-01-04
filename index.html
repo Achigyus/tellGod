@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="#"></script>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo"><a href="#">Renta<span>car</span></a></div>
+            <ul class="menu">
+                <li><a href="#services" class="dropdown">Services</a></li>
+                <li><a href="#categories" class="dropdown">Categories</a></li>
+                <li><a href="#founder" class="dropdown">Founder</a></li>
+                <li><a href="#contact" class="dropdown">Contact</a></li>
+            </ul>
+            <div class="dropdown">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <section class="header" id="header">
+        <div class="container">
+            <div class="box1">
+                <p class="bold">Rent a car for <br> as low as N1000</p>
+                <p>(you are what you ride)</p>
+            </div>
+            <div class="box2">
+                <p>Rent A Car</p>
+                <form action="#" method="get">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="email@email.com"><br>
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="name" placeholder="Full Name"><br>
+                    <label for="number">Phone Number</label>
+                    <input type="tel" name="tel" id="tel" placeholder="+234..."><br>
+                    <label for="Country">Country</label>
+                    <select name="country" id="country">
+                        <option value="Nigeria" selected>Nigeria</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="SA">South Africa</option>
+                    </select>
+                    <input type="submit" value="Book Now">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p><b>RENTACAR</b> offers vehicles for hire, micromobility, and food delivery services
+            . <b>RENTACAR</b> operates their site which enables people to hail rides from their
+            smartphones or computer. <br> The site is available for all devices. Riders must choose
+            a payment method:cash, credit card or mobile carrier billing before they can use the 
+            service <br> The customer requests a ride and confirms their pickup location. <br> 
+            Once the driver accepts the trip, the customer will be contacted and the customer 
+            will be able to see the driver's name and car details. <br> After the ride is completed
+            both the driver and the rider can rate each other.</p>
+        </div>
+    </section>
+
+    <!-- categories -->
+    <section class="categories" id="categories">
+        <h2>Categories</h2>
+        <div class="container">            
+            <div class="cat">
+                <div class="img">
+                    <img src="./img/benz.jpg" alt="benz">
+                </div>
+                <p>You need a ride for a ceremony, party or journey? <br> No worries we got you</p>
+                <button>Book Now</button>
+            </div>
+            <div class="cat">
+                <div class="img">
+                    <img src="./img/truck.jpg" alt="truck">
+                </div>
+                <p>You need a truck to move your properties to another destination <br> No worries we got you</p>
+                <button>Book Now</button>
+            </div>
+            <div class="cat">
+                <div class="img">
+                    <img src="./img/bike.jpg" alt="bike">
+                </div>
+                <p>You need to make that delivery on time? <br> No worries we got you</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- founder -->
+    <section class="founder" id="founder">
+        <h2>Founder</h2>
+        <div class="container">
+            <div class="left">
+                <p>Oyakhilome TellGod, born in Benin City, Edo State. Graduate of Ambrose 
+                    Alli University Ekpoma. He enjoys providing robust solutions. He is an
+                    upcoming developer. He is also a graphics designer, digital marketer and
+                    video editor.
+                </p>
+            </div>
+            <div class="right">
+                <img src="./img/ceo.jpg" alt="ceo">
+            </div>
+        </div>
+    </section>
+    
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="left">
+                <h2>Need Help?</h2>
+                <a href="#">Terms & Conditions</a> <br>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="right">
+                <h2>Contact Us</h2>
+                <div class="row">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+234 807 923 1741</p>
+                </div>
+                <div class="row">
+                    <i class="fas fa-envelope"></i>
+                    <p>tellzy@email.com</p>
+                </div>
+                <div class="row">
+                    <i class="fab fa-twitter-square"></i>
+                    <p>@tellzy</p>
+                </div>
+                <div class="row">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>P. O. Box 2020 Oyakhilome's Lane Nigeria</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <p>&copy;2020 Achi Gyuse For Tellzy Corvidae</p>
+        </div>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
